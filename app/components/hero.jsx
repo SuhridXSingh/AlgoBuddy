@@ -46,12 +46,12 @@ const HeroSection = () => {
           <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-7">
             {/* headline */}
             <h1
-              className="text-[2.8rem] sm:text-[3.5rem] lg:text-[4rem] font-extrabold leading-[1.1] tracking-tight text-[#1c1d1f] dark:text-[#f7f9fa]"
-              style={{
-                fontFamily: "'Inter', sans-serif",
-                letterSpacing: "-0.03em",
-              }}
-            >
+  className="text-[2.8rem] sm:text-[3.5rem] lg:text-[4rem] font-extrabold leading-[1.1] tracking-tight text-gray-900 dark:text-white drop-shadow-sm dark:drop-shadow-none"
+  style={{
+    fontFamily: "'Inter', sans-serif",
+    letterSpacing: "-0.03em",
+  }}
+>
               The smartest way
               <br />
               to learn DSA — <span className="text-[#a435f0]">visually.</span>
